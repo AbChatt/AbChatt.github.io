@@ -1,0 +1,52 @@
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#profile-pic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.picture-size {
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.picture {
+    background-image: url('../media/profile-pic.jpg');
+}
+
+.logo {
+    background-image: url('../media/uoft-logo.png');
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+body {
+    background-color: darkslategrey;
+    margin-left: 20px;
+}
