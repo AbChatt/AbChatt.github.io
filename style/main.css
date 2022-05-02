@@ -1,7 +1,7 @@
 #layout {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: flex-start;
 }
@@ -17,10 +17,24 @@
 
 #content {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#headings {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+}
+
+p {
+    margin-left: 56px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .picture-size {
@@ -49,4 +63,9 @@ h3 {
 body {
     background-color: darkslategrey;
     margin-left: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
 }
