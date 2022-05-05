@@ -31,6 +31,13 @@
     justify-content: flex-start;
 }
 
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
 p {
     margin-left: 56px;
     color: white;
@@ -45,18 +52,60 @@ p {
     border-radius: 50%;
 }
 
+.icon-size {
+    width: 100px;
+    height: 100px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    margin: 10px 0px 0px 0px;
+}
+
 .picture {
     background-image: url('../media/profile-pic.jpg');
 }
 
-.logo {
+.uoft {
     background-image: url('../media/uoft-logo.png');
 }
 
-h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: bolder;
+.linkedin {
+    background-image: url('../media/linkedin-logo.png');
+}
+
+.github {
+    background-image: url('../media/github-logo.png');
+}
+
+.email {
+    background-image: url('../media/email-logo.png');
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#about-me h3 {
+    margin-top: 0px;
+}
+
+#about-me p {
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 300px;
     margin-left: 50px;
 }
 
@@ -68,4 +117,14 @@ body {
 button {
     background-color: transparent;
     border: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

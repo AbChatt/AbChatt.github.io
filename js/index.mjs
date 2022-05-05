@@ -28,3 +28,18 @@ document.querySelector('#projects').addEventListener('click', function (e) {
     <p>Check back soon for updates!</p>
     `;
 });
+
+document.querySelector('#linkedin-button').addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('clicked linkedin!');
+});
+
+document.querySelector('#github-button').addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('clicked github!');
+});
+
+document.querySelector('#email-button').addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('clicked email!');
+});
