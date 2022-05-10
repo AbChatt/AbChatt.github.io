@@ -104,9 +104,9 @@ p {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 300px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 body {
@@ -121,6 +121,22 @@ button {
 
 button:hover {
     cursor: pointer;
+    background: rgba(211, 211, 211, 0.4);
+    border-radius: 9%;
+}
+
+#headings button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+#links button {
+    max-width: 43px;
+    max-height: 50px;
 }
 
 footer {
