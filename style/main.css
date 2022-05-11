@@ -53,11 +53,11 @@ p {
 }
 
 .icon-size {
-    width: 100px;
-    height: 100px;
-    background-size: 30%;
+    width: 43px;
+    height: 42px;
+    background-size: 70%;
     background-repeat: no-repeat;
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
 }
 
 .picture {
@@ -136,7 +136,7 @@ button:hover {
 
 #links button {
     max-width: 43px;
-    max-height: 50px;
+    max-height: 42px;
 }
 
 footer {
