@@ -35,7 +35,8 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-weight: bolder;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-top: 0px;
 }
 
 p {
@@ -90,12 +91,8 @@ p {
     margin-top: 20px;
 }
 
-#about-me h3 {
-    margin-top: 0px;
-}
-
 #about-me p {
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 0px;
 }
 
