@@ -5,7 +5,7 @@ document.querySelector('#overview').addEventListener('click', function (e) {
     console.log('clicked overview!');
     let element = document.querySelector('#section-content');
     element.innerHTML = `
-    <p>Hello! I'm Abhishek, a fourth year undergraduate who's passionate about using technology to drive
+    <p>Hello! I'm Abhishek, a computer science graduate who's passionate about using technology to drive
         societal change. I'm keenly interested in backend development and AI and love learning about tech!
     </p>
 
