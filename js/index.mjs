@@ -49,8 +49,10 @@
             let element = document.querySelector('#toggle-theme');
             if (element.innerHTML == `<div class="dark icon-size"></div>`) {
                 element.innerHTML = `<div class="light icon-size"></div>`;
+                document.querySelector('body').style.backgroundColor = 'darkslategrey';
             } else {
                 element.innerHTML = `<div class="dark icon-size"></div>`;
+                document.querySelector('body').style.backgroundColor = 'teal';
             }
         });
     });
