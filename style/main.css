@@ -31,6 +31,15 @@
     justify-content: flex-start;
 }
 
+#theme-toggles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 490px;
+}
+
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -81,6 +90,14 @@ p {
     background-image: url('../media/email-logo.png');
 }
 
+.light {
+    background-image: url('../media/light-mode.png');
+}
+
+.dark {
+    background-image: url('../media/dark-mode.png');
+}
+
 #about-me {
     display: flex;
     flex-direction: column;
@@ -129,6 +146,12 @@ button:hover {
     margin-left: 50px;
     font-size: 15px;
     padding: 10px 10px 10px 10px;
+}
+
+#theme-toggles button {
+    padding: 0px 0px 0px 5px;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 #links button {

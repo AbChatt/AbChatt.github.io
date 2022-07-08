@@ -2,7 +2,6 @@
 
 document.querySelector('#overview').addEventListener('click', function (e) {
     e.preventDefault();
-    console.log('clicked overview!');
     let element = document.querySelector('#section-content');
     element.innerHTML = `
     <p>Hello! I'm Abhishek, a computer science graduate who's passionate about using technology to drive
@@ -22,7 +21,6 @@ document.querySelector('#overview').addEventListener('click', function (e) {
 
 document.querySelector('#projects').addEventListener('click', function (e) {
     e.preventDefault();
-    console.log('clicked projects!');
     let element = document.querySelector('#section-content');
     element.innerHTML = `
     <p>Check back soon for updates!</p>
@@ -31,18 +29,25 @@ document.querySelector('#projects').addEventListener('click', function (e) {
 
 document.querySelector('#linkedin-button').addEventListener('click', function (e) {
     e.preventDefault();
-    console.log('clicked linkedin!');
     window.location.href = 'https://www.linkedin.com/in/abhishek-chatterjee-668684173/';
 });
 
 document.querySelector('#github-button').addEventListener('click', function (e) {
     e.preventDefault();
-    console.log('clicked github!');
     window.location.href = 'https://github.com/AbChatt/';
 });
 
 document.querySelector('#email-button').addEventListener('click', function (e) {
     e.preventDefault();
-    console.log('clicked email!');
     window.location.href = 'mailto:abhi1506@live.com';
+});
+
+document.querySelector('#light-mode').addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('clicked light mode');
+});
+
+document.querySelector('#dark-mode').addEventListener('click', function (e) {
+    e.preventDefault();
+    console.log('clicked dark mode');
 });
