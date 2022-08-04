@@ -45,14 +45,17 @@
         });
 
         document.querySelector('#toggle-theme').addEventListener('click', function (e) {
-            console.log('clicked theme toggle');
             let element = document.querySelector('#toggle-theme');
             if (element.innerHTML == `<div class="dark icon-size"></div>`) {
                 element.innerHTML = `<div class="light icon-size"></div>`;
-                document.querySelector('body').style.backgroundColor = 'darkslategrey';
+                setTimeout(function (e) {
+                    document.querySelector('body').style.backgroundColor = 'darkslategrey';
+                }, 300);
             } else {
                 element.innerHTML = `<div class="dark icon-size"></div>`;
-                document.querySelector('body').style.backgroundColor = 'teal';
+                setTimeout(function (e) {
+                    document.querySelector('body').style.backgroundColor = 'teal';
+                }, 300);
             }
         });
     });
